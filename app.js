@@ -8,7 +8,7 @@ app.use(express.static("public"));
 const server = app.listen(4000,()=>{
     console.log("server started at port 4000")
 })
-var io = socket(server);
+var io = socket(server); nnn
 
 
 //server side
